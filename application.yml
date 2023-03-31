@@ -2,10 +2,6 @@ spring:
   application:
     name: greeting-service
 
-  profiles:
-    active:
-      - local
-
 greeting-service:
   greeting: "Olá"
   default-value: "Mundo"
